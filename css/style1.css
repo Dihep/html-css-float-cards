@@ -1,0 +1,41 @@
+/* Global settings */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "MagicS";
+    src: url(../fonts/Magic\ Sound.ttf);
+}
+@font-face {
+    font-family: "AAce";
+    src: url(../fonts/animeace2_reg.ttf);
+}
+
+/* Header styles */
+header {
+    line-height: 150px;
+    font-size: 15px;
+    font-family: MagicS;
+    color: palevioletred;
+    text-align: center;
+}
+
+/* Main Styles */
+main {
+    padding: 0% 20%;
+}
+main>p {
+    font-size: 25px;
+    font-family: Calibri;
+    font-weight: 400;
+}
+
+section{
+    float: left;
+    background-color: black;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
