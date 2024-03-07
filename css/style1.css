@@ -30,20 +30,18 @@ main>p {
     font-size: 25px;
     font-family: Calibri;
     font-weight: 400;
+    margin-bottom: 3%;
 }
 
 /* Profile styles */
-.profiles_container{
-    display: inline-block;
+.profiles{
+    float: left;
     height: 150px;
     width: 450px;
     background-color: rgb(0, 25, 50);
+    color: white;
     border-radius: 10px;
     margin: 0px 20px 20px 0px;
-}
-.profiles{
-    float: left;
-    color: white;
 }
 .profiles>img {
     width: 150px;
