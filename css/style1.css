@@ -32,10 +32,38 @@ main>p {
     font-weight: 400;
 }
 
-section{
+/* Profile styles */
+.profiles_container{
+    display: inline-block;
+    height: 150px;
+    width: 450px;
+    background-color: rgb(0, 25, 50);
+    border-radius: 10px;
+    margin: 0px 20px 20px 0px;
+}
+.profiles{
     float: left;
-    background-color: black;
-    margin: 10px;
-    width: 100px;
-    height: 100px;
+    color: white;
+}
+.profiles>img {
+    width: 150px;
+    height: 150px;
+    float: left;
+    border-radius: 10px 0px 0px 10px;
+}
+
+/* Profiles' text styles */
+.pdescriptions>p {
+    margin: 18px 0px 0px 170px;
+}
+.pname{
+    font-size: 25px;
+    font-weight: 700;
+}
+.prole{
+    font-size: 20px;
+}
+.pmail{
+    font-size: 18px;
+    color: aqua;
 }
